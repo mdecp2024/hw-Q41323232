@@ -2,7 +2,7 @@
         <head>
         <title>cp_hw</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
@@ -141,23 +141,25 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Attendance.html'>Next</a> >> Attendance<br /><h1>About</h1>
-<p>國立虎尾科技大學機械設計工程系</p>
-<p>National Formosa University</p>
-<p>Department of Mechanical Design Engineering</p>
-<p>cp2024 計算機程式</p>
-<p>課程教材:</p>
-<p style="padding-left: 30px;"><a href="https://blog.jupyter.org/introducing-learn-python-with-jupyter-11214f152159">Learn Python with Jupyter</a> (<a href="https://www.learnpythonwithjupyter.com/">site</a>, <a href="https://localhost:9445/downloads/learn_python_with_jupyter.pdf">ebook</a>)</p>
-<p style="padding-left: 30px;">教育版帳號 microsoftonline 登入點: <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a></p>
-<p>Teams 線上教學:</p>
-<p style="padding-left: 30px;">以 "學號@nfu.edu.tw" 登入 <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> Office 365</p>
-<p style="padding-left: 30px;">Teams 團隊代碼: <span class="fui-Text ___vec8h90 fk6fouc f1pbo8a8 f1i3iumi figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649 foxqkq2" data-tid="join-team-code">ldodwua</span></p>
-<p>個人倉儲:<span data-teams="true"><a aria-label="連結 https://github.com/mdecp2024/hw-Q41323232" class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="https://github.com/mdecp2024/hw-Q41323232" id="menur37" rel="noreferrer noopener" target="_blank" title="https://github.com/mdecp2024/hw-q41323232">https://github.com/mdecp2024/hw-Q41323232</a><span></span> </span></p>
-<p>個人網站:<span data-teams="true"><a aria-label="連結 https://mdecp2024.github.io/hw-Q41323232/" class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="https://mdecp2024.github.io/hw-Q41323232/" id="menur39" rel="noreferrer noopener" target="_blank" title="https://mdecp2024.github.io/hw-q41323232/">https://mdecp2024.github.io/hw-Q41323232/</a> </span></p>
-<p>其他資訊:</p>
-<p style="padding-left: 30px;"><a href="./../downloads/cd2023_pj3ag4_zmq_football_4.7.7z">cd2023_pj3ag4_zmq_football_4.7.7z</a></p>
-<p style="padding-left: 30px;"><a href="https://localhost:9446/downloads/cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z">cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z</a></p>
-<br /> <a href='Attendance.html'>Next</a> >> Attendance</div>
+    <div id="tipue_search_content">W12 << <a href='W12.html'>Previous</a> <a href='HW 2.html'>Next</a> >> HW 2<br /><h1>w15</h1>
+<p><em>第一題:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/ac4374dcdf9c05d3140a8e4933feca2b/raw/f24f3a66bf84475947bc7b573c3a29b141728a66/w15%25201.py">anchor</a></em></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># sum 初始值設為 0
+# sum 為全域變數
+sum = 0
+ 
+def addto(init, upto):
+    #sum = 0
+    global sum  # 宣告使用全域變數 sum
+    #init = 1
+    #upto = 100
+    # 利用 for 重複迴圈與變數加法進行累加
+    for i in range(init, upto + 1):
+        sum = sum + i
+    print("從" + str(init) + "累加到" + str(upto) + "=" + str(sum))
+ 
+addto(1, 100)
+print(sum)</pre>
+<p>這個有點困難,我需要利用課後時間再多多學習</p><br />W12 << <a href='W12.html'>Previous</a> <a href='HW 2.html'>Next</a> >> HW 2</div>
         
     <!-- footer -->
       <div class="container">

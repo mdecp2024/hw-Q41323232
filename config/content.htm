@@ -52,7 +52,27 @@
 <p>第一題:input()與print()</p>
 <p><span>input()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/1203.py">好困難</a></span></p>
 <p><span></span></p>
-<p><span>print()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/gistfile1.txt">貓</a></span></p><h1>HW 2</h1>
+<p><span>print()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/gistfile1.txt">貓</a></span></p>
+<p><span></span></p>
+<h3><em>w15</em></h3>
+<p><em>第一題:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/ac4374dcdf9c05d3140a8e4933feca2b/raw/f24f3a66bf84475947bc7b573c3a29b141728a66/w15%25201.py">anchor</a></em></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># sum 初始值設為 0
+# sum 為全域變數
+sum = 0
+ 
+def addto(init, upto):
+    #sum = 0
+    global sum  # 宣告使用全域變數 sum
+    #init = 1
+    #upto = 100
+    # 利用 for 重複迴圈與變數加法進行累加
+    for i in range(init, upto + 1):
+        sum = sum + i
+    print("從" + str(init) + "累加到" + str(upto) + "=" + str(sum))
+ 
+addto(1, 100)
+print(sum)</pre>
+<p>這個有點困難,我需要利用課後時間再多多學習</p><h1>HW 2</h1>
 <h4>主題: Python 的數列、判斷式與重複迴圈 (20%)<span style="background-color: #ffff99;"><br/></span></h4>
 <p style="padding-left: 30px;">Python 課程教材: <a href="https://www.learnpythonwithjupyter.com/">https://www.learnpythonwithjupyter.com/</a> - PART 2 and Part 3</p>
 <hr/>
