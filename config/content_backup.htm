@@ -52,7 +52,27 @@
 <p>第一題:input()與print()</p>
 <p><span>input()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/1203.py">好困難</a></span></p>
 <p><span></span></p>
-<p><span>print()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/gistfile1.txt">貓</a></span></p><h1>HW 2</h1>
+<p><span>print()範例程式:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/5d58aa5847010947a5b11427ca6b85a1/raw/431a332331b5b9d518e5df06f57d4fbbf52c7ace/gistfile1.txt">貓</a></span></p>
+<p><span></span></p>
+<h3>w15</h3>
+<p><em>第一題:<a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/ac4374dcdf9c05d3140a8e4933feca2b/raw/f24f3a66bf84475947bc7b573c3a29b141728a66/w15%25201.py">anchor</a></em></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># sum 初始值設為 0
+# sum 為全域變數
+sum = 0
+ 
+def addto(init, upto):
+    #sum = 0
+    global sum  # 宣告使用全域變數 sum
+    #init = 1
+    #upto = 100
+    # 利用 for 重複迴圈與變數加法進行累加
+    for i in range(init, upto + 1):
+        sum = sum + i
+    print("從" + str(init) + "累加到" + str(upto) + "=" + str(sum))
+ 
+addto(1, 100)
+print(sum)</pre>
+<p>這個有點困難,我需要利用課後時間再多多學習</p><h1>HW 2</h1>
 <h4>主題: Python 的數列、判斷式與重複迴圈 (20%)<span style="background-color: #ffff99;"><br/></span></h4>
 <p style="padding-left: 30px;">Python 課程教材: <a href="https://www.learnpythonwithjupyter.com/">https://www.learnpythonwithjupyter.com/</a> - PART 2 and Part 3</p>
 <hr/>
@@ -62,7 +82,12 @@
 <p>完成上述流程整理後, 請將 HW2 自評分數輸入 cp2024 自評表單中.</p><h2>HW 2 Exam</h2>
 <p>每六人為一組進行協同程式練習</p>
 <p>透過 Jupyterlab 協同網頁, 輪流指定各組編寫 HW 2 相關的程式練習, 以及網頁內容 (localhost 與 Codespaces 環境)編輯.</p>
-<h1>HW 3</h1>
+<h3>w16_exam1</h3>
+<p><a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/c890eb1053c17f661447dae26adb3093/raw/fb0fb748e2d3d560aefb4d402507f605466381f1/w16-1.py">anchor </a></p>
+<h3>w16_exam2</h3>
+<p><a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/49194ede3e622ba770fb824e741fbdf4/raw/bbd2810cb69c6a5ae0a862ad8524497e10d8e321/w16-2.py">anchor</a></p>
+<h3><span>HW 4 Exam</span></h3>
+<p><span><a href="https://mdecp2024.github.io/hw-Q41323232/content/Brython.html?src=https://gist.githubusercontent.com/Q41323232/846da8a37136b4cdc85cd6276f7c4ca1/raw/a6a6adfb16c1d81889c0b2b5cea494bb6f2df976/w16-3.py">anchor</a></span></p><h1>HW 3</h1>
 <h4>主題: Python 的數字、演算法與迴圈 (20%)</h4>
 <p style="padding-left: 30px;">Python 課程教材: <a href="https://www.learnpythonwithjupyter.com/">https://www.learnpythonwithjupyter.com/</a> - PART 4 and Part 5</p>
 <p>完成上述流程整理後, 請將 HW3 自評分數輸入 cp2024 自評表單中.</p>
